@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        div{
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            display: inline-table;
+            text-align: center;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            
+        }
+
+        div:hover{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de pseudoclasse</h1>
+    <div id="d1">01
+        <p>ACHOU</p>
+    </div>
+    <div id="d2">02
+        <p>AQUI TAMBÉM</p>
+    </div>
+    <div id="d3">03
+        <P>E AQUI TAMBÉM</P>
+    </div>
+</body>
+</html>
